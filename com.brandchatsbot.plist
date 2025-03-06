@@ -9,6 +9,8 @@
             <string>/Users/flippackstation5/python_scripts/brandchatsbot/venv/bin/python3</string>
             <string>/Users/flippackstation5/python_scripts/brandchatsbot/main.py</string>
         </array>
+        <key>WorkingDirectory</key>
+        <string>/Users/flippackstation5/python_scripts/brandchatsbot</string>
         <key>StartInterval</key>
         <integer>86400</integer> <!-- 1 day in seconds -->
         <key>StandardOutPath</key>
