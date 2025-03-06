@@ -1,0 +1,6 @@
+.env
+venv/
+gsheet_creds.json
+looker.ini
+chat_categorization.log
+chat_records.json
