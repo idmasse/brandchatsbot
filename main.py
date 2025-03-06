@@ -25,7 +25,7 @@ CREDENTIALS_FILE = os.path.join(script_dir, "gsheet_creds.json")
 LAST_PROCESSED_FILE = os.path.join(script_dir, "chat_records.json")
 GOOGLE_SHEET_ID = os.getenv('GOOGLE_SHEET_ID')
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
-SHEET_TAB_ID = int(os.getenv('SHEET_TAB_ID'))
+SHEET_TAB_ID = os.getenv('SHEET_TAB_ID')
 
 # init gpt client
 client = OpenAI(api_key=OPENAI_API_KEY)
